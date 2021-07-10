@@ -39,7 +39,6 @@ header {
 
 .texto0 { /* Redes pessoais */
     background-color:white;
-    color: green;
     position: absolute;
     top: 420px;
     border-radius: 20px;
@@ -47,8 +46,16 @@ header {
     padding: 10px;
 }
 
+.texto-tit{
+    color:black
+}
+
 .texto0 > p {
     margin: 0;
+}
+
+.texto-emai{
+    color:black
 }
 
 .texto1 { /* Texto motivacional */
