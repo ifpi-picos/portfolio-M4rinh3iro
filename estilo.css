@@ -10,14 +10,14 @@ body {
 }
 
 main{ /*página */
-    background-color:rgb(3, 40, 65);
+    background-color:rgb(2, 36, 48);
     border-radius: 20px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    grid-template-areas:"header header" "texto1 informes1" "texto0 foto1" "footer footer" 
+    grid-template-areas:"header header" "redespes informes1" "foto1 texto1" "footer footer" 
 }
 
 
@@ -39,8 +39,6 @@ header > p{
     border-radius: 20px;
     box-shadow: 1px 1px 1px black;
     padding: 10px;
-    margin-right: 10px;
-    margin-left: 130px;
 
     
 }
@@ -52,13 +50,10 @@ header > p{
 
 .texto0 { /* Redes pessoais */
     background-color:white;
-    grid-area:texto0;
+    grid-area:redespes;
     border-radius: 20px;
     box-shadow: 1px 1px 1px black;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 150px;
-    margin-left: 10px;
 
 }
 
@@ -79,16 +74,12 @@ header > p{
     grid-area:texto1;
     border-radius: 20px;
     box-shadow: 1px 1px 1px black;
-    margin-left: 10px;
-    margin-right: -100px;
-    padding: 10px;
+
 }
 
 .foto1 { /* foto pessoal */
     grid-area:foto1;
-    box-shadow: 1px 1px 1px black;
-    margin-left: 400px;
-    margin-right: 10px;
+
 
 }
 
